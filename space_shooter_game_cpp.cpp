@@ -860,7 +860,6 @@ private:
             window.draw(exitText);
         }
         else {
-            // Font yüklenmediyse þekillerle göster
             RectangleShape startButton(Vector2f(300, 50));
             startButton.setFillColor(Color::Green);
             startButton.setOutlineColor(Color::White);
@@ -1087,4 +1086,5 @@ int main() {
     SpaceShooterGame game;
     game.run();
     return 0;
+
 }
